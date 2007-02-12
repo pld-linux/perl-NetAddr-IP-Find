@@ -6,7 +6,7 @@
 %define	pdir	NetAddr
 %define	pnam	IP-Find
 Summary:	NetAddr::IP::Find - Find IP addresses in plain text
-Summary(pl):	NetAddr::IP::Find - znajdowanie adresÛw IP w czystym tek∂cie
+Summary(pl.UTF-8):   NetAddr::IP::Find - znajdowanie adres√≥w IP w czystym tek≈õcie
 Name:		perl-NetAddr-IP-Find
 Version:	0.03
 Release:	1
@@ -27,8 +27,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This is a module for finding IP addresses in plain text.
 
-%description -l pl
-Ten modu≥ s≥uøy do znajdowania adresÛw IP w czystym tek∂cie.
+%description -l pl.UTF-8
+Ten modu≈Ç s≈Çu≈ºy do znajdowania adres√≥w IP w czystym tek≈õcie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
