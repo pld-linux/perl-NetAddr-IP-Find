@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	NetAddr
 %define	pnam	IP-Find
 Summary:	NetAddr::IP::Find - Find IP addresses in plain text
